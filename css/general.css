@@ -5,8 +5,14 @@
 }
 html {
   font-size: 62.5%;
+  font-family: "Open Sans", sans-serif;
 }
 
+h1,
+h2,
+h3 {
+  font-family: "Poppins", sans-serif;
+}
 .grid {
   display: grid;
   gap: 4rem;
@@ -20,11 +26,23 @@ html {
 }
 
 .btn-link:link,
-:visited {
+.btn-link:visited {
   display: inline-block;
   text-decoration: none;
   color: white;
   background-color: hsl(322, 100%, 66%);
+  padding: 0.5em 2em;
+  border-radius: 50px;
+  font-size: 2rem;
+}
+
+.btn-link-white:link,
+.btn-link-white:visited {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  background-color: #fff;
+  box-shadow: 10px 10px 8px #888888;
   padding: 0.5em 2em;
   border-radius: 50px;
   font-size: 2rem;
