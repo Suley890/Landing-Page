@@ -20,10 +20,12 @@
   background-color: #edfbfe;
   padding-top: 3rem;
 }
+
 .hero {
   display: grid;
-  grid-template-columns: 3fr 4fr;
+  grid-template-columns: 7fr 8fr;
   align-items: center;
+  gap: 5rem;
 }
 
 .hero-title {
@@ -33,44 +35,49 @@
 }
 
 .hero-text {
-  font-size: 1.7rem;
-  line-height: 1.6;
+  font-size: 1.8rem;
+  line-height: 1.5;
   margin-bottom: 2.5rem;
 }
 
-.hero-img-box {
-  display: flex;
-  justify-content: flex-end;
-}
-
 .hero-img {
-  width: 90%;
+  width: 100%;
 }
 
 /* FEATURES */
 
 .features {
-  padding: 0 8rem;
+  padding: 12rem 8rem;
+  padding-bottom: 20rem;
 }
 .feature-block {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   justify-content: space-between;
-  padding-left: 4rem;
-  padding-right: 1rem;
-  box-shadow: 10px 10px 8px #888888;
+  padding-left: 9rem;
+  padding-right: 3rem;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  box-shadow: 0px 0px 5px 5px rgb(0, 0, 0, 0.045);
   margin-bottom: 5rem;
   border-radius: 9px;
+  height: 38rem;
+}
+.feature-block:last-child {
+  margin-bottom: 0;
 }
 
 .feature-title {
   font-weight: 600;
   font-size: 3rem;
+  margin-bottom: 1rem;
 }
 
 .feature-text {
-  font-size: 2rem;
+  font-size: 1.75rem;
+  line-height: 1.5;
+  color: hsl(208, 11%, 55%);
 }
 
 .feature-img-box {
@@ -88,16 +95,20 @@
 }
 
 /* FOOTER */
-
+/* create more grid columns put contacts into multiple columns */
 footer {
   background-color: hsl(192, 100%, 9%);
-  color: #fff;
-  padding: 0 8rem;
+  color: #ced4da;
+  padding: 15rem 8rem 4rem 8rem;
+  font-size: 1.4rem;
+  position: relative;
 }
-
+.footer-logo {
+  margin-bottom: 4rem;
+}
 .footer-container {
-  display: flex;
-  gap: 2rem;
+  display: grid;
+  grid-template-columns: 1.2fr 1fr 1fr 1fr;
 }
 
 .info {
@@ -105,8 +116,59 @@ footer {
   flex-direction: column;
   gap: 2rem;
 }
+.info svg {
+  width: 4rem;
+}
+
+.location {
+  width: 8rem !important;
+}
+
 .info div {
   display: flex;
-  gap: 1rem;
-  font-size: 1rem;
+}
+
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.footer-info-links {
+  justify-self: center;
+}
+
+.socials {
+  font-size: 2rem;
+  display: flex;
+  gap: 2rem;
+}
+
+.copy {
+  margin-top: 2rem;
+  grid-area: 2/-2;
+  font-size: 0.95rem;
+}
+
+/* CTA */
+
+.cta {
+  background-color: white;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  font-size: 2.5rem;
+  border-radius: 9px;
+  width: 50%;
+  text-align: center;
+  padding: 3rem;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 0px 5px 5px rgb(0, 0, 0, 0.045);
+}
+
+.cta p {
+  margin-bottom: 2rem;
 }
