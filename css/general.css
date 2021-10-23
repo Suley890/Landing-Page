@@ -54,4 +54,6 @@ h3 {
 .container {
   padding-left: 5rem;
   padding-right: 5rem;
+  max-width: 125rem;
+  margin: 0 auto;
 }
