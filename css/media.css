@@ -118,7 +118,7 @@
 /* 420px */
 @media (max-width: 26.25em) {
   .hero-container {
-    background-image: url(/images/bg-hero-mobile.svg);
+    background-image: url(../images/bg-hero-mobile.svg);
   }
 
   html {
