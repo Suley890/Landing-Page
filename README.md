@@ -1,6 +1,7 @@
 # Landing-Page
 
-Landing page for fictional Huddle company built with HTML and CSS
+Landing page for fictional Huddle company built with HTML and CSS<br>
+Link (https://suley890.github.io/Landing-Page/)
 
 ## Features
 - Hero section
