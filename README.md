@@ -4,7 +4,7 @@ Landing page for fictional Huddle company built with HTML and CSS
 
 ## Features
 - Hero section
-- Feature section 
+- Features section 
 - Footer section
 
 ### Techniques used
